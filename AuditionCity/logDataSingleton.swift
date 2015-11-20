@@ -15,10 +15,5 @@ class LogData: NSObject {
     
     class func logSession() -> LogData { return singleton}
     
-    var logs: [[String:AnyObject]] = []
-    
-    var logsArray: [String] = []
-    
-    
     
 }

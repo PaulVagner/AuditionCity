@@ -16,6 +16,7 @@
 		448A0F071BFFB80F00B55A45 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448A0F041BFFB80F00B55A45 /* LoginViewController.swift */; };
 		448A0F081BFFB80F00B55A45 /* RailsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448A0F051BFFB80F00B55A45 /* RailsRequest.swift */; };
 		448A0F091BFFB80F00B55A45 /* logDataSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448A0F061BFFB80F00B55A45 /* logDataSingleton.swift */; };
+		448A0F0D1BFFDA8D00B55A45 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448A0F0C1BFFDA8D00B55A45 /* Buttons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		448A0F041BFFB80F00B55A45 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		448A0F051BFFB80F00B55A45 /* RailsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RailsRequest.swift; sourceTree = "<group>"; };
 		448A0F061BFFB80F00B55A45 /* logDataSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = logDataSingleton.swift; sourceTree = "<group>"; };
+		448A0F0C1BFFDA8D00B55A45 /* Buttons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Buttons.swift; path = ../Buttons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		448A0EEC1BFFB70700B55A45 /* AuditionCity */ = {
 			isa = PBXGroup;
 			children = (
+				448A0F0C1BFFDA8D00B55A45 /* Buttons.swift */,
 				448A0EF11BFFB70700B55A45 /* Main.storyboard */,
 				448A0F021BFFB7E200B55A45 /* Login.storyboard */,
 				448A0F0A1BFFB81800B55A45 /* Login WorkFlow */,
@@ -164,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				448A0F0D1BFFDA8D00B55A45 /* Buttons.swift in Sources */,
 				448A0F071BFFB80F00B55A45 /* LoginViewController.swift in Sources */,
 				448A0EF01BFFB70700B55A45 /* ViewController.swift in Sources */,
 				448A0F091BFFB80F00B55A45 /* logDataSingleton.swift in Sources */,
@@ -311,6 +315,7 @@
 				448A0F011BFFB70700B55A45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
