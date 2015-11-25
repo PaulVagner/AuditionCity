@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4466F01C1C024D8D00264959 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4466F01B1C024D8D00264959 /* UserCell.swift */; };
+		4466F01E1C024F4300264959 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4466F01D1C024F4300264959 /* MainViewController.swift */; };
+		4466F0211C024FAD00264959 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4466F0201C024FAD00264959 /* FavoritesViewController.swift */; };
+		4466F0241C0250A100264959 /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4466F0231C0250A100264959 /* UserDetailsViewController.swift */; };
+		4466F0271C039ED000264959 /* UserTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4466F0261C039ED000264959 /* UserTableVC.swift */; };
+		4466F0291C03A41C00264959 /* faceShotImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4466F0281C03A41C00264959 /* faceShotImageView.swift */; };
+		4466F02B1C04984400264959 /* RailsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4466F02A1C04984400264959 /* RailsRequest.swift */; };
 		448A0EEE1BFFB70700B55A45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448A0EED1BFFB70700B55A45 /* AppDelegate.swift */; };
 		448A0EF01BFFB70700B55A45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448A0EEF1BFFB70700B55A45 /* ViewController.swift */; };
 		448A0EF31BFFB70700B55A45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 448A0EF11BFFB70700B55A45 /* Main.storyboard */; };
@@ -14,12 +21,18 @@
 		448A0EF81BFFB70700B55A45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 448A0EF71BFFB70700B55A45 /* Assets.xcassets */; };
 		448A0F031BFFB7E200B55A45 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 448A0F021BFFB7E200B55A45 /* Login.storyboard */; };
 		448A0F071BFFB80F00B55A45 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448A0F041BFFB80F00B55A45 /* LoginViewController.swift */; };
-		448A0F081BFFB80F00B55A45 /* RailsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448A0F051BFFB80F00B55A45 /* RailsRequest.swift */; };
 		448A0F091BFFB80F00B55A45 /* logDataSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448A0F061BFFB80F00B55A45 /* logDataSingleton.swift */; };
 		448A0F0D1BFFDA8D00B55A45 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448A0F0C1BFFDA8D00B55A45 /* Buttons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4466F01B1C024D8D00264959 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserCell.swift; path = ../UserCell.swift; sourceTree = "<group>"; };
+		4466F01D1C024F4300264959 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4466F0201C024FAD00264959 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		4466F0231C0250A100264959 /* UserDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
+		4466F0261C039ED000264959 /* UserTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableVC.swift; sourceTree = "<group>"; };
+		4466F0281C03A41C00264959 /* faceShotImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = faceShotImageView.swift; sourceTree = "<group>"; };
+		4466F02A1C04984400264959 /* RailsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RailsRequest.swift; sourceTree = "<group>"; };
 		448A0EEA1BFFB70700B55A45 /* AuditionCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuditionCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		448A0EED1BFFB70700B55A45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		448A0EEF1BFFB70700B55A45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,7 +42,6 @@
 		448A0EFC1BFFB70700B55A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		448A0F021BFFB7E200B55A45 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		448A0F041BFFB80F00B55A45 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		448A0F051BFFB80F00B55A45 /* RailsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RailsRequest.swift; sourceTree = "<group>"; };
 		448A0F061BFFB80F00B55A45 /* logDataSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = logDataSingleton.swift; sourceTree = "<group>"; };
 		448A0F0C1BFFDA8D00B55A45 /* Buttons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Buttons.swift; path = ../Buttons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -45,6 +57,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4466F01F1C024F8400264959 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				4466F0261C039ED000264959 /* UserTableVC.swift */,
+				4466F01B1C024D8D00264959 /* UserCell.swift */,
+				4466F01D1C024F4300264959 /* MainViewController.swift */,
+				4466F0281C03A41C00264959 /* faceShotImageView.swift */,
+			);
+			name = MainVC;
+			sourceTree = "<group>";
+		};
+		4466F0221C024FDF00264959 /* FavoritesVC */ = {
+			isa = PBXGroup;
+			children = (
+				4466F0201C024FAD00264959 /* FavoritesViewController.swift */,
+			);
+			name = FavoritesVC;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4466F0251C02512200264959 /* UserDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				4466F0231C0250A100264959 /* UserDetailsViewController.swift */,
+			);
+			name = UserDetailVC;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		448A0EE11BFFB70700B55A45 = {
 			isa = PBXGroup;
 			children = (
@@ -64,10 +105,14 @@
 		448A0EEC1BFFB70700B55A45 /* AuditionCity */ = {
 			isa = PBXGroup;
 			children = (
-				448A0F0C1BFFDA8D00B55A45 /* Buttons.swift */,
 				448A0EF11BFFB70700B55A45 /* Main.storyboard */,
-				448A0F021BFFB7E200B55A45 /* Login.storyboard */,
+				4466F02A1C04984400264959 /* RailsRequest.swift */,
+				4466F01F1C024F8400264959 /* MainVC */,
+				4466F0221C024FDF00264959 /* FavoritesVC */,
+				4466F0251C02512200264959 /* UserDetailVC */,
+				448A0F0C1BFFDA8D00B55A45 /* Buttons.swift */,
 				448A0F0A1BFFB81800B55A45 /* Login WorkFlow */,
+				448A0F021BFFB7E200B55A45 /* Login.storyboard */,
 				448A0EF41BFFB70700B55A45 /* AuditionCity.xcdatamodeld */,
 				448A0F0B1BFFB83700B55A45 /* System */,
 			);
@@ -78,7 +123,6 @@
 			isa = PBXGroup;
 			children = (
 				448A0F041BFFB80F00B55A45 /* LoginViewController.swift */,
-				448A0F051BFFB80F00B55A45 /* RailsRequest.swift */,
 				448A0F061BFFB80F00B55A45 /* logDataSingleton.swift */,
 			);
 			name = "Login WorkFlow";
@@ -167,13 +211,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4466F01C1C024D8D00264959 /* UserCell.swift in Sources */,
 				448A0F0D1BFFDA8D00B55A45 /* Buttons.swift in Sources */,
+				4466F0291C03A41C00264959 /* faceShotImageView.swift in Sources */,
 				448A0F071BFFB80F00B55A45 /* LoginViewController.swift in Sources */,
 				448A0EF01BFFB70700B55A45 /* ViewController.swift in Sources */,
+				4466F0271C039ED000264959 /* UserTableVC.swift in Sources */,
 				448A0F091BFFB80F00B55A45 /* logDataSingleton.swift in Sources */,
 				448A0EEE1BFFB70700B55A45 /* AppDelegate.swift in Sources */,
-				448A0F081BFFB80F00B55A45 /* RailsRequest.swift in Sources */,
+				4466F01E1C024F4300264959 /* MainViewController.swift in Sources */,
+				4466F0241C0250A100264959 /* UserDetailsViewController.swift in Sources */,
+				4466F0211C024FAD00264959 /* FavoritesViewController.swift in Sources */,
 				448A0EF61BFFB70700B55A45 /* AuditionCity.xcdatamodeld in Sources */,
+				4466F02B1C04984400264959 /* RailsRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
