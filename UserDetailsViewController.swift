@@ -25,6 +25,15 @@ class UserDetailsViewController: UIViewController {
     
     @IBOutlet weak var resumeView: UIScrollView!
     
+    @IBOutlet weak var expandResume: ToggleButton!
+    
+    @IBAction func expandResumeTapped(sender: ToggleButton) {
+    
+    
+    
+    }
+    
+    
     @IBAction func contactButtonPressed(sender: Buttons) {
     
     }

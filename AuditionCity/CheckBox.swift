@@ -11,6 +11,16 @@ import UIKit
 @IBDesignable public class CheckBox: UIControl {
     // MARK: Properties
     
+    public override func drawRect(rect: CGRect) {
+        
+        layer.cornerRadius = cornerRadius
+        layer.masksToBounds = true
+        
+    }
+    
+    @IBInspectable var cornerRadius: CGFloat = 0
+    
+    
     @IBInspectable public var isChecked: Bool {
         get {
             return checkBoxLayer.isChecked
@@ -58,6 +68,11 @@ import UIKit
             contentScaleFactor = window.screen.scale
         }
     }
+    
+    public override func didMoveToSuperview() {
+        setNeedsDisplay()
+        print(isChecked)
+    }
 
     override public class func layerClass() -> AnyClass {
         return CheckBoxLayer.self
@@ -67,6 +82,13 @@ import UIKit
         super.tintColorDidChange()
         
         checkBoxLayer.tintColor = tintColor.CGColor
+    }
+    
+    override public func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        
+        isChecked = !isChecked
+        print(isChecked)
+        
     }
 
     // MARK: Convenience
