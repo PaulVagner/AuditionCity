@@ -1,39 +1,15 @@
 //
-//  UserDetailsViewController.swift
+//  FavoritesVC.swift
 //  AuditionCity
 //
-//  Created by Paul Vagner on 11/22/15.
+//  Created by Paul Vagner on 11/26/15.
 //  Copyright © 2015 Paul Vagner. All rights reserved.
 //
 
 import UIKit
 
-class UserDetailsViewController: UIViewController {
+class FavoritesVC: UIViewController {
 
-    
-    @IBOutlet weak var faceShot: UIImageView!
-    
-    @IBOutlet weak var fullNameLabel: UILabel!
-    
-    @IBOutlet weak var contactButton: Buttons!
-    
-    @IBOutlet weak var starmeButton: Buttons!
-    
-    @IBOutlet weak var skillSetView: UIScrollView!
-    
-    @IBOutlet weak var measurementsLabel: UILabel!
-    
-    @IBOutlet weak var resumeView: UIScrollView!
-    
-    @IBAction func contactButtonPressed(sender: Buttons) {
-    
-    }
-    
-    @IBAction func starmeButtonPressed(sender: Buttons) {
-    
-    }
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 

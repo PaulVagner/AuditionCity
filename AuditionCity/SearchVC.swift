@@ -1,14 +1,14 @@
 //
-//  FavoritesViewController.swift
+//  SearchVC.swift
 //  AuditionCity
 //
-//  Created by Paul Vagner on 11/22/15.
+//  Created by Paul Vagner on 11/29/15.
 //  Copyright © 2015 Paul Vagner. All rights reserved.
 //
 
 import UIKit
 
-class FavoritesViewController: UIViewController {
+class SearchVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
