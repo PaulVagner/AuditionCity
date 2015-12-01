@@ -2,6 +2,7 @@ import UIKit
 
 class SearchVC: UIViewController, UIPopoverPresentationControllerDelegate {
    
+    @IBOutlet weak var nameSearchField: UITextField!
     
     @IBOutlet weak var ageFrom: UILabel!
     

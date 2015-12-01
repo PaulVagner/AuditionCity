@@ -116,7 +116,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Talent Agency" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fyi-IT-L1Q">
-                                <rect key="frame" x="20" y="194" width="280" height="30"/>
+                                <rect key="frame" x="20" y="254" width="280" height="30"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="YaB-J6-AVA"/>
@@ -125,7 +125,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pAH-wb-reQ" customClass="RangeSlider" customModule="AuditionCity" customModuleProvider="target">
-                                <rect key="frame" x="20" y="154" width="280" height="30"/>
+                                <rect key="frame" x="20" y="214" width="280" height="30"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Pi2-LA-MEG"/>
@@ -152,8 +152,9 @@
                                 </connections>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6QM-Oc-2YX">
-                                <rect key="frame" x="70" y="114" width="60" height="30"/>
+                                <rect key="frame" x="70" y="164" width="60" height="30"/>
                                 <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="BDR-cS-hdq"/>
                                     <constraint firstAttribute="width" constant="60" id="efS-aw-iDq"/>
@@ -163,8 +164,9 @@
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w3E-Al-vyI" customClass="Buttons" customModule="AuditionCity" customModuleProvider="target">
-                                <rect key="frame" x="50" y="488" width="60" height="60"/>
+                                <rect key="frame" x="50" y="498" width="60" height="60"/>
                                 <animations/>
+                                <color key="backgroundColor" red="0.97254901959999995" green="0.7725490196" blue="0.80392156859999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="bqF-6n-PYb"/>
                                     <constraint firstAttribute="width" constant="60" id="zD1-GG-ERG"/>
@@ -183,8 +185,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNl-HO-HZT" customClass="Buttons" customModule="AuditionCity" customModuleProvider="target">
-                                <rect key="frame" x="210" y="488" width="60" height="60"/>
+                                <rect key="frame" x="210" y="498" width="60" height="60"/>
                                 <animations/>
+                                <color key="backgroundColor" red="0.00015022809611979862" green="0.78141143474615382" blue="0.23687016169841577" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="Q53-vo-tw5"/>
                                     <constraint firstAttribute="width" constant="60" id="vN8-4j-TI7"/>
@@ -204,7 +207,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="get-Bl-d6f" customClass="Buttons" customModule="AuditionCity" customModuleProvider="target">
-                                <rect key="frame" x="170" y="74" width="100" height="30"/>
+                                <rect key="frame" x="170" y="104" width="100" height="30"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.4549019608" green="0.94901960780000005" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -227,7 +230,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pBX-ID-gf6" customClass="Buttons" customModule="AuditionCity" customModuleProvider="target">
-                                <rect key="frame" x="50" y="74" width="100" height="30"/>
+                                <rect key="frame" x="50" y="104" width="100" height="30"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.4549019608" green="0.94901960780000005" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -249,8 +252,8 @@
                                     </segue>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age From" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1S9-nb-68J">
-                                <rect key="frame" x="20" y="114" width="50" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age From:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1S9-nb-68J">
+                                <rect key="frame" x="18" y="164" width="52" height="30"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="EWS-od-2Di"/>
@@ -260,8 +263,8 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age To" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SLh-CO-vNh">
-                                <rect key="frame" x="135" y="114" width="55" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age To:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SLh-CO-vNh">
+                                <rect key="frame" x="150" y="164" width="40" height="30"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="rUj-40-cnn"/>
@@ -272,8 +275,9 @@
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Vz-J9-kQT">
-                                <rect key="frame" x="190" y="114" width="60" height="30"/>
+                                <rect key="frame" x="190" y="164" width="60" height="30"/>
                                 <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="qFX-Se-EvQ"/>
                                     <constraint firstAttribute="width" constant="60" id="vRi-dx-9wm"/>
@@ -283,164 +287,22 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="b8L-7O-Mme">
-                                <rect key="frame" x="16" y="232" width="288" height="200"/>
+                                <rect key="frame" x="16" y="289" width="288" height="168"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="hw6-Cc-sCp">
-                                        <rect key="frame" x="0.0" y="0.0" width="134" height="200"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="134" height="168"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="zxi-75-dtT">
-                                                <rect key="frame" x="0.0" y="0.0" width="88" height="50"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="78" height="42"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U5G-an-IYb" customClass="CheckBox" customModule="AuditionCity" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="10" width="30" height="30"/>
+                                                        <rect key="frame" x="0.0" y="11" width="20" height="20"/>
                                                         <animations/>
                                                         <color key="backgroundColor" red="0.0039215686269999999" green="0.56078431370000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="30" id="OzC-Mg-jgk"/>
-                                                            <constraint firstAttribute="height" constant="30" id="SoI-lq-wZ3"/>
-                                                        </constraints>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="strokeFactor">
-                                                                <real key="value" value="0.050000000000000003"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="insetFactor">
-                                                                <real key="value" value="2"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                <real key="value" value="15"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </view>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Equity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3VY-Tr-OGL">
-                                                        <rect key="frame" x="40" y="15" width="48" height="21"/>
-                                                        <animations/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                                <animations/>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="5Rn-tz-eM3">
-                                                <rect key="frame" x="0.0" y="50" width="74" height="50"/>
-                                                <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GYd-BC-xBk" customClass="CheckBox" customModule="AuditionCity" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="10" width="30" height="30"/>
-                                                        <animations/>
-                                                        <color key="backgroundColor" red="0.0039215686269999999" green="0.56078431370000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="30" id="2WK-gb-4h5"/>
-                                                            <constraint firstAttribute="width" constant="30" id="VRd-fC-sQu"/>
-                                                        </constraints>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="strokeFactor">
-                                                                <real key="value" value="0.050000000000000003"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="insetFactor">
-                                                                <real key="value" value="2"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                <real key="value" value="15"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </view>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SAG" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NSh-Vo-dXc">
-                                                        <rect key="frame" x="40" y="15" width="34" height="21"/>
-                                                        <animations/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                                <animations/>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="3R5-P3-CU4">
-                                                <rect key="frame" x="0.0" y="100" width="85" height="50"/>
-                                                <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cTL-XI-vDT" customClass="CheckBox" customModule="AuditionCity" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="10" width="30" height="30"/>
-                                                        <animations/>
-                                                        <color key="backgroundColor" red="0.0039215686269999999" green="0.56078431370000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="30" id="ZaF-nB-GlJ"/>
-                                                            <constraint firstAttribute="width" constant="30" id="bEJ-87-1kK"/>
-                                                        </constraints>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="strokeFactor">
-                                                                <real key="value" value="0.050000000000000003"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="insetFactor">
-                                                                <real key="value" value="2"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                <real key="value" value="15"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </view>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SSDC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H3i-Xa-G0S">
-                                                        <rect key="frame" x="40" y="15" width="45" height="21"/>
-                                                        <animations/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                                <animations/>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="P9Z-u4-N4Q">
-                                                <rect key="frame" x="0.0" y="150" width="89" height="50"/>
-                                                <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="moe-Eo-QxS" customClass="CheckBox" customModule="AuditionCity" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="10" width="30" height="30"/>
-                                                        <animations/>
-                                                        <color key="backgroundColor" red="0.0039215686269999999" green="0.56078431370000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="30" id="Hij-kR-wQE"/>
-                                                            <constraint firstAttribute="width" constant="30" id="pgC-QY-MrU"/>
-                                                        </constraints>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="strokeFactor">
-                                                                <real key="value" value="0.050000000000000003"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="insetFactor">
-                                                                <real key="value" value="2"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                <real key="value" value="15"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </view>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AGMA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ht5-9a-AH0">
-                                                        <rect key="frame" x="40" y="15" width="49" height="21"/>
-                                                        <animations/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                                <animations/>
-                                            </stackView>
-                                        </subviews>
-                                        <animations/>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="ls8-t8-oOH">
-                                        <rect key="frame" x="154" y="0.0" width="134" height="200"/>
-                                        <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="55z-0e-EEY">
-                                                <rect key="frame" x="0.0" y="0.0" width="82" height="50"/>
-                                                <subviews>
-                                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UqS-ez-KBO" customClass="CheckBox" customModule="AuditionCity" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="15" width="20" height="20"/>
-                                                        <animations/>
-                                                        <color key="backgroundColor" red="0.0039215686269999999" green="0.56078431370000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="20" id="pHf-c0-7Rp"/>
-                                                            <constraint firstAttribute="height" constant="20" id="tPV-wx-bHA"/>
+                                                            <constraint firstAttribute="width" constant="20" id="OzC-Mg-jgk"/>
+                                                            <constraint firstAttribute="height" constant="20" id="SoI-lq-wZ3"/>
                                                         </constraints>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="strokeFactor">
@@ -454,8 +316,150 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Equity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3VY-Tr-OGL">
+                                                        <rect key="frame" x="30" y="11" width="48" height="21"/>
+                                                        <animations/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <animations/>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="5Rn-tz-eM3">
+                                                <rect key="frame" x="0.0" y="42" width="64" height="42"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GYd-BC-xBk" customClass="CheckBox" customModule="AuditionCity" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="11" width="20" height="20"/>
+                                                        <animations/>
+                                                        <color key="backgroundColor" red="0.0039215686269999999" green="0.56078431370000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="20" id="2WK-gb-4h5"/>
+                                                            <constraint firstAttribute="width" constant="20" id="VRd-fC-sQu"/>
+                                                        </constraints>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="strokeFactor">
+                                                                <real key="value" value="0.050000000000000003"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="insetFactor">
+                                                                <real key="value" value="2"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </view>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SAG" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NSh-Vo-dXc">
+                                                        <rect key="frame" x="30" y="11" width="34" height="21"/>
+                                                        <animations/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <animations/>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="3R5-P3-CU4">
+                                                <rect key="frame" x="0.0" y="84" width="75" height="42"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cTL-XI-vDT" customClass="CheckBox" customModule="AuditionCity" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="11" width="20" height="20"/>
+                                                        <animations/>
+                                                        <color key="backgroundColor" red="0.0039215686269999999" green="0.56078431370000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="20" id="ZaF-nB-GlJ"/>
+                                                            <constraint firstAttribute="width" constant="20" id="bEJ-87-1kK"/>
+                                                        </constraints>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="strokeFactor">
+                                                                <real key="value" value="0.050000000000000003"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="insetFactor">
+                                                                <real key="value" value="2"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </view>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SSDC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H3i-Xa-G0S">
+                                                        <rect key="frame" x="30" y="11" width="45" height="21"/>
+                                                        <animations/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <animations/>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="P9Z-u4-N4Q">
+                                                <rect key="frame" x="0.0" y="126" width="79" height="42"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="moe-Eo-QxS" customClass="CheckBox" customModule="AuditionCity" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="11" width="20" height="20"/>
+                                                        <animations/>
+                                                        <color key="backgroundColor" red="0.0039215686269999999" green="0.56078431370000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="20" id="Hij-kR-wQE"/>
+                                                            <constraint firstAttribute="width" constant="20" id="pgC-QY-MrU"/>
+                                                        </constraints>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="strokeFactor">
+                                                                <real key="value" value="0.050000000000000003"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="insetFactor">
+                                                                <real key="value" value="2"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </view>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AGMA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ht5-9a-AH0">
+                                                        <rect key="frame" x="30" y="11" width="49" height="21"/>
+                                                        <animations/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <animations/>
+                                            </stackView>
+                                        </subviews>
+                                        <animations/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="ls8-t8-oOH">
+                                        <rect key="frame" x="154" y="0.0" width="134" height="168"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="55z-0e-EEY">
+                                                <rect key="frame" x="0.0" y="0.0" width="82" height="42"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UqS-ez-KBO" customClass="CheckBox" customModule="AuditionCity" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="11" width="20" height="20"/>
+                                                        <animations/>
+                                                        <color key="backgroundColor" red="0.0039215686269999999" green="0.56078431370000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="20" id="pHf-c0-7Rp"/>
+                                                            <constraint firstAttribute="height" constant="20" id="tPV-wx-bHA"/>
+                                                        </constraints>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="insetFactor">
+                                                                <real key="value" value="2"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="strokeFactor">
+                                                                <real key="value" value="0.050000000000000003"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </view>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EFTRA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dEt-ef-oWW">
-                                                        <rect key="frame" x="30" y="15" width="52" height="21"/>
+                                                        <rect key="frame" x="30" y="11" width="52" height="21"/>
                                                         <animations/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -465,16 +469,16 @@
                                                 <animations/>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="YQk-DB-A0W">
-                                                <rect key="frame" x="0.0" y="50" width="85" height="50"/>
+                                                <rect key="frame" x="0.0" y="42" width="75" height="42"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pUI-zJ-7Vr" customClass="CheckBox" customModule="AuditionCity" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="10" width="30" height="30"/>
+                                                        <rect key="frame" x="0.0" y="11" width="20" height="20"/>
                                                         <animations/>
                                                         <color key="backgroundColor" red="0.0039215686269999999" green="0.56078431370000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="30" id="UkR-al-ev3"/>
-                                                            <constraint firstAttribute="height" constant="30" id="aEb-Ew-xli"/>
+                                                            <constraint firstAttribute="width" constant="20" id="UkR-al-ev3"/>
+                                                            <constraint firstAttribute="height" constant="20" id="aEb-Ew-xli"/>
                                                         </constraints>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="strokeFactor">
@@ -484,12 +488,12 @@
                                                                 <real key="value" value="2"/>
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                <real key="value" value="15"/>
+                                                                <real key="value" value="10"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IATSE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0gS-d9-DB4">
-                                                        <rect key="frame" x="40" y="15" width="45" height="21"/>
+                                                        <rect key="frame" x="30" y="11" width="45" height="21"/>
                                                         <animations/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -499,16 +503,16 @@
                                                 <animations/>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="QUt-3Q-Hrr">
-                                                <rect key="frame" x="0.0" y="100" width="76" height="50"/>
+                                                <rect key="frame" x="0.0" y="84" width="66" height="42"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EJ6-R0-LMr" customClass="CheckBox" customModule="AuditionCity" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="10" width="30" height="30"/>
+                                                        <rect key="frame" x="0.0" y="11" width="20" height="20"/>
                                                         <animations/>
                                                         <color key="backgroundColor" red="0.0039215686269999999" green="0.56078431370000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="30" id="76M-Or-894"/>
-                                                            <constraint firstAttribute="width" constant="30" id="hX1-t4-jXB"/>
+                                                            <constraint firstAttribute="height" constant="20" id="76M-Or-894"/>
+                                                            <constraint firstAttribute="width" constant="20" id="hX1-t4-jXB"/>
                                                         </constraints>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="strokeFactor">
@@ -518,12 +522,12 @@
                                                                 <real key="value" value="2"/>
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                <real key="value" value="15"/>
+                                                                <real key="value" value="10"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DGA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dIC-R3-IVn">
-                                                        <rect key="frame" x="40" y="15" width="36" height="21"/>
+                                                        <rect key="frame" x="30" y="11" width="36" height="21"/>
                                                         <animations/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -532,32 +536,11 @@
                                                 </subviews>
                                                 <animations/>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Fh6-zX-Nw7">
-                                                <rect key="frame" x="0.0" y="150" width="76" height="50"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Fh6-zX-Nw7">
+                                                <rect key="frame" x="0.0" y="126" width="134" height="42"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pMq-iA-F3Y" customClass="CheckBox" customModule="AuditionCity" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="10" width="30" height="30"/>
-                                                        <animations/>
-                                                        <color key="backgroundColor" red="0.0039215686269999999" green="0.56078431370000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="30" id="722-uX-mCq"/>
-                                                            <constraint firstAttribute="height" constant="30" id="8J8-dq-my8"/>
-                                                        </constraints>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="strokeFactor">
-                                                                <real key="value" value="0.050000000000000003"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="insetFactor">
-                                                                <real key="value" value="2"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                <real key="value" value="15"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
-                                                    </view>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DGA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="irJ-mj-EKK">
-                                                        <rect key="frame" x="40" y="15" width="36" height="21"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="irJ-mj-EKK">
+                                                        <rect key="frame" x="0.0" y="0.0" width="134" height="42"/>
                                                         <animations/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -572,11 +555,20 @@
                                 </subviews>
                                 <animations/>
                             </stackView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Union" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jdv-40-XoZ">
-                                <rect key="frame" x="16" y="442" width="288" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Other Unions" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jdv-40-XoZ">
+                                <rect key="frame" x="16" y="462" width="288" height="30"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="jua-gl-EpI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jga-1e-f8U">
+                                <rect key="frame" x="20" y="69" width="280" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="1Ql-ay-xhV"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -587,35 +579,38 @@
                         <constraints>
                             <constraint firstItem="Jdv-40-XoZ" firstAttribute="trailing" secondItem="LTm-i9-u5X" secondAttribute="trailingMargin" id="0QE-ow-qQQ"/>
                             <constraint firstItem="w3E-Al-vyI" firstAttribute="leading" secondItem="LTm-i9-u5X" secondAttribute="leading" constant="50" id="0Z3-eL-ARS"/>
+                            <constraint firstItem="jga-1e-f8U" firstAttribute="leading" secondItem="LTm-i9-u5X" secondAttribute="leading" constant="20" id="74r-GP-7Ff"/>
                             <constraint firstItem="9Vz-J9-kQT" firstAttribute="leading" secondItem="SLh-CO-vNh" secondAttribute="trailing" id="9Kz-B9-C95"/>
                             <constraint firstItem="fyi-IT-L1Q" firstAttribute="leading" secondItem="LTm-i9-u5X" secondAttribute="leading" constant="20" id="Ae5-MA-uY5"/>
                             <constraint firstAttribute="trailing" secondItem="hNl-HO-HZT" secondAttribute="trailing" constant="50" id="Bca-66-C0V"/>
-                            <constraint firstItem="6QM-Oc-2YX" firstAttribute="top" secondItem="pBX-ID-gf6" secondAttribute="bottom" constant="10" id="EHo-7e-vh4"/>
-                            <constraint firstItem="1S9-nb-68J" firstAttribute="top" secondItem="pBX-ID-gf6" secondAttribute="bottom" constant="10" id="G1h-mI-5M5"/>
-                            <constraint firstItem="1S9-nb-68J" firstAttribute="leading" secondItem="LTm-i9-u5X" secondAttribute="leading" constant="20" id="HY9-cJ-1zB"/>
-                            <constraint firstItem="pBX-ID-gf6" firstAttribute="top" secondItem="2vr-0G-TKS" secondAttribute="bottom" constant="10" id="O94-qj-mTC"/>
-                            <constraint firstItem="b8L-7O-Mme" firstAttribute="top" secondItem="fyi-IT-L1Q" secondAttribute="bottom" constant="8" id="OFY-L8-Bck"/>
+                            <constraint firstItem="6QM-Oc-2YX" firstAttribute="top" secondItem="pBX-ID-gf6" secondAttribute="bottom" constant="30" id="EHo-7e-vh4"/>
+                            <constraint firstItem="1S9-nb-68J" firstAttribute="top" secondItem="pBX-ID-gf6" secondAttribute="bottom" constant="30" id="G1h-mI-5M5"/>
+                            <constraint firstItem="1S9-nb-68J" firstAttribute="leading" secondItem="LTm-i9-u5X" secondAttribute="leading" constant="18" id="HY9-cJ-1zB"/>
+                            <constraint firstItem="pBX-ID-gf6" firstAttribute="top" secondItem="2vr-0G-TKS" secondAttribute="bottom" constant="40" id="O94-qj-mTC"/>
+                            <constraint firstItem="b8L-7O-Mme" firstAttribute="top" secondItem="fyi-IT-L1Q" secondAttribute="bottom" constant="5" id="OFY-L8-Bck"/>
                             <constraint firstItem="fyi-IT-L1Q" firstAttribute="top" secondItem="pAH-wb-reQ" secondAttribute="bottom" constant="10" id="RME-6Z-R5e"/>
                             <constraint firstItem="6QM-Oc-2YX" firstAttribute="leading" secondItem="1S9-nb-68J" secondAttribute="trailing" id="U77-wv-go7"/>
                             <constraint firstItem="6QM-Oc-2YX" firstAttribute="leading" secondItem="LTm-i9-u5X" secondAttribute="leading" constant="70" id="XaB-zn-gi3"/>
                             <constraint firstItem="b8L-7O-Mme" firstAttribute="leading" secondItem="LTm-i9-u5X" secondAttribute="leadingMargin" id="Xri-pb-e2I"/>
-                            <constraint firstItem="3nJ-wK-Oqb" firstAttribute="top" secondItem="hNl-HO-HZT" secondAttribute="bottom" constant="20" id="YC6-iz-zVa"/>
-                            <constraint firstItem="hNl-HO-HZT" firstAttribute="top" secondItem="Jdv-40-XoZ" secondAttribute="bottom" constant="16" id="Yab-cg-z5m"/>
+                            <constraint firstItem="3nJ-wK-Oqb" firstAttribute="top" secondItem="hNl-HO-HZT" secondAttribute="bottom" constant="10" id="YC6-iz-zVa"/>
+                            <constraint firstItem="jga-1e-f8U" firstAttribute="top" secondItem="2vr-0G-TKS" secondAttribute="bottom" constant="5" id="YUe-ib-GYh"/>
+                            <constraint firstItem="hNl-HO-HZT" firstAttribute="top" secondItem="Jdv-40-XoZ" secondAttribute="bottom" constant="6" id="Yab-cg-z5m"/>
                             <constraint firstItem="pBX-ID-gf6" firstAttribute="leading" secondItem="LTm-i9-u5X" secondAttribute="leading" constant="50" id="a3A-E2-1qV"/>
-                            <constraint firstItem="3nJ-wK-Oqb" firstAttribute="top" secondItem="w3E-Al-vyI" secondAttribute="bottom" constant="20" id="asn-0v-9QG"/>
-                            <constraint firstItem="SLh-CO-vNh" firstAttribute="top" secondItem="pBX-ID-gf6" secondAttribute="bottom" constant="10" id="e5J-eE-oRM"/>
-                            <constraint firstItem="get-Bl-d6f" firstAttribute="top" secondItem="2vr-0G-TKS" secondAttribute="bottom" constant="10" id="g4V-KP-Hf0"/>
+                            <constraint firstItem="3nJ-wK-Oqb" firstAttribute="top" secondItem="w3E-Al-vyI" secondAttribute="bottom" constant="10" id="asn-0v-9QG"/>
+                            <constraint firstItem="SLh-CO-vNh" firstAttribute="top" secondItem="pBX-ID-gf6" secondAttribute="bottom" constant="30" id="e5J-eE-oRM"/>
+                            <constraint firstItem="get-Bl-d6f" firstAttribute="top" secondItem="2vr-0G-TKS" secondAttribute="bottom" constant="40" id="g4V-KP-Hf0"/>
                             <constraint firstAttribute="trailing" secondItem="pAH-wb-reQ" secondAttribute="trailing" constant="20" id="gEI-fG-bSd"/>
                             <constraint firstAttribute="trailing" secondItem="fyi-IT-L1Q" secondAttribute="trailing" constant="20" id="gSi-4F-Ari"/>
                             <constraint firstItem="Jdv-40-XoZ" firstAttribute="leading" secondItem="LTm-i9-u5X" secondAttribute="leadingMargin" id="iDL-Ke-HSU"/>
                             <constraint firstItem="pAH-wb-reQ" firstAttribute="leading" secondItem="LTm-i9-u5X" secondAttribute="leading" constant="20" id="lrU-du-sa0"/>
-                            <constraint firstItem="Jdv-40-XoZ" firstAttribute="top" secondItem="b8L-7O-Mme" secondAttribute="bottom" constant="10" id="mHf-hj-sOe"/>
-                            <constraint firstItem="pAH-wb-reQ" firstAttribute="top" secondItem="9Vz-J9-kQT" secondAttribute="bottom" constant="10" id="mxD-yV-4EH"/>
+                            <constraint firstItem="Jdv-40-XoZ" firstAttribute="top" secondItem="b8L-7O-Mme" secondAttribute="bottom" constant="5" id="mHf-hj-sOe"/>
+                            <constraint firstItem="pAH-wb-reQ" firstAttribute="top" secondItem="9Vz-J9-kQT" secondAttribute="bottom" constant="20" id="mxD-yV-4EH"/>
                             <constraint firstAttribute="trailing" secondItem="9Vz-J9-kQT" secondAttribute="trailing" constant="70" id="tRd-3y-4GF"/>
                             <constraint firstAttribute="trailing" secondItem="get-Bl-d6f" secondAttribute="trailing" constant="50" id="uxx-kz-Kzf"/>
-                            <constraint firstItem="9Vz-J9-kQT" firstAttribute="top" secondItem="get-Bl-d6f" secondAttribute="bottom" constant="10" id="wuD-m8-h2N"/>
+                            <constraint firstItem="9Vz-J9-kQT" firstAttribute="top" secondItem="get-Bl-d6f" secondAttribute="bottom" constant="30" id="wuD-m8-h2N"/>
+                            <constraint firstAttribute="trailing" secondItem="jga-1e-f8U" secondAttribute="trailing" constant="20" id="x5t-Oz-b0P"/>
                             <constraint firstAttribute="trailingMargin" secondItem="b8L-7O-Mme" secondAttribute="trailing" id="xyb-6G-CNh"/>
-                            <constraint firstItem="SLh-CO-vNh" firstAttribute="leading" secondItem="6QM-Oc-2YX" secondAttribute="trailing" constant="5" id="yo0-Qy-yM1"/>
+                            <constraint firstItem="SLh-CO-vNh" firstAttribute="leading" secondItem="6QM-Oc-2YX" secondAttribute="trailing" constant="20" id="yo0-Qy-yM1"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
@@ -624,6 +619,7 @@
                         <outlet property="ageRange" destination="pAH-wb-reQ" id="iVv-0Y-duO"/>
                         <outlet property="ageTo" destination="9Vz-J9-kQT" id="QdO-PA-eBa"/>
                         <outlet property="cancelButton" destination="w3E-Al-vyI" id="VX5-EV-QTL"/>
+                        <outlet property="nameSearchField" destination="jga-1e-f8U" id="5el-zR-dF2"/>
                         <outlet property="okButton" destination="hNl-HO-HZT" id="Xnd-cX-d0z"/>
                         <outlet property="talentAgencyTF" destination="fyi-IT-L1Q" id="4Xr-Gu-4Dy"/>
                         <outlet property="unionTF" destination="Jdv-40-XoZ" id="EV4-5w-Rug"/>
@@ -652,13 +648,37 @@
                                     <constraint firstAttribute="height" constant="216" id="KWS-o7-HMF"/>
                                 </constraints>
                             </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Clh-7r-O5w" customClass="Buttons" customModule="AuditionCity" customModuleProvider="target">
+                                <rect key="frame" x="135" y="498" width="50" height="50"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0001502280961" green="0.78141143469999996" blue="0.2368701617" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="aYI-f4-5OM"/>
+                                    <constraint firstAttribute="height" constant="50" id="wcm-4U-SUj"/>
+                                </constraints>
+                                <state key="normal" title="OK"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="okButtonTapped:" destination="rIa-Cw-jEW" eventType="touchUpInside" id="tsZ-Yl-tng"/>
+                                    <segue destination="9vP-2e-WwH" kind="unwind" unwindAction="okButtonTapped:" id="vzL-1w-jgp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Clh-7r-O5w" firstAttribute="centerX" secondItem="JgL-Gg-XEZ" secondAttribute="centerX" id="Bsk-sQ-08x"/>
                             <constraint firstItem="JgL-Gg-XEZ" firstAttribute="leading" secondItem="Lpn-OX-Xy4" secondAttribute="leading" id="JaU-2U-gfN"/>
                             <constraint firstItem="JgL-Gg-XEZ" firstAttribute="top" secondItem="Lpn-OX-Xy4" secondAttribute="top" id="caM-Jz-96e"/>
                             <constraint firstAttribute="trailing" secondItem="JgL-Gg-XEZ" secondAttribute="trailing" id="wBc-5K-sjq"/>
+                            <constraint firstAttribute="bottom" secondItem="Clh-7r-O5w" secondAttribute="bottom" constant="20" symbolic="YES" id="zZO-Sj-PCl"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
@@ -667,6 +687,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yg0-wO-f5s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="9vP-2e-WwH" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2162" y="425"/>
         </scene>

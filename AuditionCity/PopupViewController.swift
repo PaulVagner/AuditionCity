@@ -17,8 +17,14 @@ class PopupViewController: UIViewController, UIPickerViewDataSource, UIPickerVie
       super.preferredContentSize = newValue
     }
   }
-    @IBAction func okButtonTapped(segue: UIStoryboardSegue) {
+//    @IBAction func okButtonTapped(segue: UIStoryboardSegue) {
+//    
+//        
+//    }
     
+    @IBAction func okButtonTapped(sender: Buttons) {
+    
+        self.navigationController?.popViewControllerAnimated(true)
     }
     
     override func viewDidAppear(animated: Bool) {
